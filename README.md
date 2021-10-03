@@ -82,4 +82,6 @@ As you can see, the start price is set just before interating over the next row 
 
 The end price is set in a similar manner. It is set after the last row of the ticker is found. the last item will always be the end price
 
-Together, these changes improved the speed of the code by around 500%. Below is the execution time of the original code compared to the refactored code
+Together, these changes improved the speed of the code by around 500%. Below is the execution time of the original code compared to the refactored code:
+
+![Getting Started](./Resources/Runtime_orig_2018.png)
