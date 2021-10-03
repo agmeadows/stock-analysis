@@ -91,3 +91,11 @@ Together, these changes improved the speed of the code by around 500%. Below is 
 ![Refactored Speed](/Resources/Runtime_refactor_2018.PNG)
 
 The new code runs in a fraction of a second compared to nearly 30 seconds for the original
+
+## Summary
+
+It is clear refactoring has major benefits. Through this process, the new code can run significantly faster. This allows for the code to handle larger sets of data. The biggest drawback is the additonal time involved in optimizing. This should only be done for code that will see multiple uses and not for one-off projects.
+
+In this case, the refactored VBA script was greatly improved. Since the code can be run for multiple years, it benefits from refactoring. Each run is significantly faster. Should it be required, additional tickers and associated could be added with minimal impact to performance. The original code was already at its limit. If any additional data was added the problem would only get worse.
+
+The biggest challenge in refactoring is determining the best place to execute a command to avoid redundant operations. Often times, this requires in-depth thinking of the process and exactly how the code will run. Debugging tools are very helpful in finding what the code is doing and when. however, this can take quite a bit of time to do. 
