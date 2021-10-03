@@ -84,4 +84,4 @@ The end price is set in a similar manner. It is set after the last row of the ti
 
 Together, these changes improved the speed of the code by around 500%. Below is the execution time of the original code compared to the refactored code:
 
-[/Resources/Runtime_orig_2018.png]
+[](/Resources/Runtime_orig_2018.png)
